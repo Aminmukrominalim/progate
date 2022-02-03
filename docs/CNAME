@@ -1,1 +1,2 @@
-www.nookcranstore.com
+$ dig www.nookcranstore.com +nostats +nocomments +nocmd
+www.nookcranstore.com.   3600  IN  A 185.199.108.153
