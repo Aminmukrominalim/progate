@@ -177,9 +177,9 @@
   
   .message {
     padding: 15px 40px;
-    background-color: #5dca88;
+    background-color: #b3aeb5;
     cursor: pointer;
-    box-shadow: 0 7px #1a7940;
+    box-shadow: 0 7px #5f5d60;
   }
   
   .message:active {
