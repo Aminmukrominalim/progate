@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
   }
+  o{
+    color:#f7f7f7;
+    text-align: right;
+  }
   
   body {
     margin: 0;
@@ -14,6 +18,15 @@
   .clear {
     clear: left;
   }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
   
   .container {
     max-width: 1170px;
@@ -22,7 +35,7 @@
   }
   
   .top-wrapper {
-    padding: 180px 0 10px 0;
+    padding: 170px 0 100px 0;
     background-image: url(https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png);
     background-size: cover;
     color: white;
@@ -83,7 +96,7 @@
   header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: rgba(69, 212, 205, 0.9);
     position :fixed;
     top: 0;
     z-index: 10;
@@ -179,9 +192,7 @@
   
   .message {
     padding: 15px 40px;
-    background-color: #b3aeb5;
     cursor: pointer;
-    box-shadow: 0 7px #5f5d60;
   }
   
   .message:active {
